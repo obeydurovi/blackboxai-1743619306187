@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation | Neutral Studios</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-md z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="text-2xl font-bold text-gray-800">NEUTRAL STUDIOS</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-blue-500">Home</a>
+                    <a href="game-development.html" class="text-gray-600 hover:text-blue-500">Game Dev</a>
+                    <a href="animation.html" class="text-blue-500">Animation</a>
+                    <a href="publisher.html" class="text-gray-600 hover:text-blue-500">Publisher</a>
+                    <a href="index.html#contact" class="text-gray-600 hover:text-blue-500">Contact</a>
+                </div>
+                <button class="md:hidden focus:outline-none">
+                    <i class="fas fa-bars text-2xl text-gray-600"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 md:pt-40 md:pb-32 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.pexels.com/photos/2928158/pexels-photo-2928158.jpeg');">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">Animation Department</h1>
+            <p class="text-xl md:text-2xl text-white mb-8">Bringing stories to life through stunning visuals</p>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Animation Team</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Team Member 1 -->
+                <div class="text-center">
+                    <img src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg" alt="Animation Director" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="text-xl font-bold">Sophie Martin</h3>
+                    <p class="text-blue-500 mb-2">Animation Director</p>
+                    <p class="text-gray-600 mb-4">Specializes in character animation with 10+ years experience</p>
+                    <div class="flex justify-center space-x-2">
+                        <span class="bg-gray-100 px-2 py-1 rounded text-sm">Character Rigging</span>
+                        <span class="bg-gray-100 px-2 py-1 rounded text-sm">Storyboarding</span>
+                    </div>
+                </div>
+                <!-- Team Member 2 -->
+                <div class="text-center">
+                    <img src="https://images.pexels.com/photos/3778603/pexels-photo-3778603.jpeg" alt="3D Artist" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="text-xl font-bold">Carlos Mendez</h3>
+                    <p class="text-blue-500 mb-2">3D Artist</p>
+                    <p class="text-gray-600 mb-4">Maya and Blender expert with focus on environmental design</p>
+                    <div class="flex justify-center space-x-2">
+                        <span class="bg-gray-100 px-2 py-1 rounded text-sm">3D Modeling</span>
+                        <span class="bg-gray-100 px-2 py-1 rounded text-sm">Texturing</span>
+                    </div>
+                </div>
+                <!-- Team Member 3 -->
+                <div class="text-center">
+                    <img src="https://images.pexels.com/photos/3778602/pexels-photo-3778602.jpeg" alt="Motion Designer" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="text-xl font-bold">Priya Patel</h3>
+                    <p class="text-blue-500 mb-2">Motion Designer</p>
+                    <p class="text-gray-600 mb-4">After Effects specialist with motion graphics expertise</p>
+                    <div class="flex justify-center space-x-2">
+                        <span class="bg-gray-100 px-2 py-1 rounded text-sm">Motion Graphics</span>
+                        <span class="bg-gray-100 px-2 py-1 rounded text-sm">Visual Effects</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Our Animation Tools</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 text-center">
+                    <i class="fab fa-adobe text-5xl text-red-500 mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">Adobe Suite</h3>
+                    <p class="text-gray-600">After Effects, Animate, Photoshop</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 text-center">
+                    <i class="fas fa-cube text-5xl text-blue-500 mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">Blender</h3>
+                    <p class="text-gray-600">3D modeling and animation</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 text-center">
+                    <i class="fas fa-film text-5xl text-purple-500 mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">Maya</h3>
+                    <p class="text-gray-600">Industry-standard 3D software</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 text-center">
+                    <i class="fas fa-tv text-5xl text-green-500 mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">Toon Boom</h3>
+                    <p class="text-gray-600">2D animation production</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">NEUTRAL STUDIOS</h3>
+                    <p class="text-gray-400">Bringing stories to life through animation.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Departments</h4>
+                    <ul class="space-y-2">
+                        <li><a href="game-development.html" class="text-gray-400 hover:text-white transition duration-300">Game Development</a></li>
+                        <li><a href="animation.html" class="text-gray-400 hover:text-white transition duration-300">Animation</a></li>
+                        <li><a href="publisher.html" class="text-gray-400 hover:text-white transition duration-300">Publisher</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2">
+                        <li class="text-gray-400">123 Animation Ave</li>
+                        <li class="text-gray-400">Los Angeles, CA</li>
+                        <li class="text-gray-400">animation@neutralstudios.com</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-vimeo-v text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-artstation text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-behance text-xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 Neutral Studios. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
