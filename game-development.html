@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Development | Neutral Studios</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-md z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="text-2xl font-bold text-gray-800">NEUTRAL STUDIOS</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-blue-500">Home</a>
+                    <a href="game-development.html" class="text-blue-500">Game Dev</a>
+                    <a href="animation.html" class="text-gray-600 hover:text-blue-500">Animation</a>
+                    <a href="publisher.html" class="text-gray-600 hover:text-blue-500">Publisher</a>
+                    <a href="index.html#contact" class="text-gray-600 hover:text-blue-500">Contact</a>
+                </div>
+                <button class="md:hidden focus:outline-none">
+                    <i class="fas fa-bars text-2xl text-gray-600"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 md:pt-40 md:pb-32 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg');">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">Game Development</h1>
+            <p class="text-xl md:text-2xl text-white mb-8">Creating immersive experiences that push boundaries</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Our Game Dev Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="text-blue-500 mb-4">
+                        <i class="fas fa-gamepad text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Game Design</h3>
+                    <p class="text-gray-600">From concept to gameplay mechanics, we craft engaging experiences.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="text-blue-500 mb-4">
+                        <i class="fas fa-code text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Development</h3>
+                    <p class="text-gray-600">Built with Unity, Unreal Engine, and custom engines.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="text-blue-500 mb-4">
+                        <i class="fas fa-vr-cardboard text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">VR/AR Solutions</h3>
+                    <p class="text-gray-600">Immersive experiences for next-gen platforms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Our Game Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Project 1 -->
+                <div class="relative group overflow-hidden rounded-lg">
+                    <img src="https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg" alt="Adventure Game" class="w-full h-64 object-cover transition duration-500 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <div class="text-center p-4">
+                            <h3 class="text-white text-xl font-bold mb-2">Mythic Quest</h3>
+                            <p class="text-gray-200 mb-4">Action RPG for PC and consoles</p>
+                            <a href="#" class="text-white border border-white px-4 py-2 rounded hover:bg-white hover:text-black transition duration-300">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="relative group overflow-hidden rounded-lg">
+                    <img src="https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg" alt="VR Game" class="w-full h-64 object-cover transition duration-500 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <div class="text-center p-4">
+                            <h3 class="text-white text-xl font-bold mb-2">Neon Void</h3>
+                            <p class="text-gray-200 mb-4">VR shooter with unique mechanics</p>
+                            <a href="#" class="text-white border border-white px-4 py-2 rounded hover:bg-white hover:text-black transition duration-300">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="relative group overflow-hidden rounded-lg">
+                    <img src="https://images.pexels.com/photos/275033/pexels-photo-275033.jpeg" alt="Mobile Game" class="w-full h-64 object-cover transition duration-500 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <div class="text-center p-4">
+                            <h3 class="text-white text-xl font-bold mb-2">Puzzle Masters</h3>
+                            <p class="text-gray-200 mb-4">Mobile puzzle game with 100+ levels</p>
+                            <a href="#" class="text-white border border-white px-4 py-2 rounded hover:bg-white hover:text-black transition duration-300">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Game Dev Team</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Team Member 1 -->
+                <div class="text-center">
+                    <img src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg" alt="Lead Developer" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="text-xl font-bold">Alex Chen</h3>
+                    <p class="text-blue-500 mb-2">Lead Developer</p>
+                    <p class="text-gray-600">Specializes in Unity and C#</p>
+                </div>
+                <!-- Team Member 2 -->
+                <div class="text-center">
+                    <img src="https://images.pexels.com/photos/3765114/pexels-photo-3765114.jpeg" alt="Game Designer" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="text-xl font-bold">Maya Rodriguez</h3>
+                    <p class="text-blue-500 mb-2">Game Designer</p>
+                    <p class="text-gray-600">Narrative and mechanics expert</p>
+                </div>
+                <!-- Team Member 3 -->
+                <div class="text-center">
+                    <img src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg" alt="VR Specialist" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="text-xl font-bold">Jamal Wilson</h3>
+                    <p class="text-blue-500 mb-2">VR Specialist</p>
+                    <p class="text-gray-600">Unreal Engine developer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">NEUTRAL STUDIOS</h3>
+                    <p class="text-gray-400">Creating digital experiences that inspire and engage.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Departments</h4>
+                    <ul class="space-y-2">
+                        <li><a href="game-development.html" class="text-gray-400 hover:text-white transition duration-300">Game Development</a></li>
+                        <li><a href="animation.html" class="text-gray-400 hover:text-white transition duration-300">Animation</a></li>
+                        <li><a href="publisher.html" class="text-gray-400 hover:text-white transition duration-300">Publisher</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2">
+                        <li class="text-gray-400">123 Game Dev Lane</li>
+                        <li class="text-gray-400">San Francisco, CA</li>
+                        <li class="text-gray-400">hello@neutralstudios.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 Neutral Studios. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
